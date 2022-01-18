@@ -1,0 +1,22 @@
+.Post {
+    border: 1px solid gainsboro;
+    box-shadow: 1px 1px 5px rgb(153, 153, 153);
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.Post h3 {
+    font-weight: 600;
+    color: black;
+}
+
+.Post p {
+    color: darkgray;
+    padding: 1rem 0;
+}
+
+.Post:hover,
+.Post:active {
+    background-color: rgb(180, 174, 218);
+    cursor: pointer;
+}

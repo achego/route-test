@@ -1,0 +1,32 @@
+.NavBar {
+    display: flex;
+    background-color: rgb(60, 153, 235);
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    color: beige;
+}
+
+
+.NavBar ul  {
+    list-style: none;
+    text-align: end;
+
+}
+
+.NavBar li {
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+.NavBar a {
+    text-decoration: none;
+    color: beige;
+}
+
+.NavBar a:hover,
+.NavBar a:active{
+    color: chartreuse;
+}

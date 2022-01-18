@@ -1,0 +1,28 @@
+.Display {
+    padding: 2rem 1rem;
+    text-align: center;
+    border: 1px solid gainsboro;
+    box-shadow: 1px 1px 5px gray;
+    margin: 2rem 0;
+}
+
+.Display p {
+    padding: 1rem 0;
+}
+
+.Display button {
+    color: red;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    padding: 0.7rem 1rem;
+    border-radius: 0.6rem;
+    background-color: rgb(247, 235, 235);
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.Display button:hover {
+    color: darkred;
+    background-color: rgb(250, 215, 215);
+}
